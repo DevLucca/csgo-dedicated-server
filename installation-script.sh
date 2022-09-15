@@ -13,7 +13,7 @@ sudo add-apt-repository multiverse
 sudo apt-get install -y unzip software-properties-common
 sudo dpkg --add-architecture i386
 sudo apt-get update
-sudo apt install -y lib32gcc-s1 steamcmd
+sudo apt install -y lib32gcc-s1 lib32gcc1 ia32-libs steamcmd
 sudo ln -s /usr/games/steamcmd /home/steam/steamcmd
 
 # INSTALL CS:GO SERVER FILES
