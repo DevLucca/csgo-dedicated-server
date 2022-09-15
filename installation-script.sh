@@ -34,7 +34,7 @@ echo '"Plugin"
 {
 	"file"	"../csgo/addons/metamod/bin/server"
 }
-' >> addons/metamod.vdf
+' > addons/metamod.vdf
 
 rm *.tar.gz *.zip
 
