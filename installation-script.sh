@@ -45,6 +45,9 @@ cd $INSTALLATION_DIR
 # ADD CUSTOM CFGs
 wget https://raw.githubusercontent.com/DevLucca/csgo-dedicated-server/main/server.cfg -O csgo/cfg/server.cfg
 wget https://raw.githubusercontent.com/DevLucca/csgo-dedicated-server/main/tv.cfg -O csgo/cfg/tv.cfg
+wget https://raw.githubusercontent.com/DevLucca/csgo-dedicated-server/main/knife.cfg -O csgo/cfg/knife.cfg
+wget https://raw.githubusercontent.com/DevLucca/csgo-dedicated-server/main/competitive.cfg -O csgo/cfg/competitive.cfg
+wget https://raw.githubusercontent.com/DevLucca/csgo-dedicated-server/main/infinite-warmup.cfg -O csgo/cfg/infinite-warmup.cfg
 
 # CREATE STARTUP SCRIPT
 echo "$INSTALLATION_DIR/srcds_run -game csgo -console -usercon -tickrate 128 +mapgroup mg_active +map de_mirage -authkey CHANGEME +sv_setsteamaccount CHANGEME -port 27015 -clientport 27005 +tv_port 27020" >> init_script
